@@ -147,10 +147,37 @@ table {
    ==========================
 */
 body {
+  box-sizing: border-box;
   font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
+  margin: auto;
+  width: 375px;
 }
 
+/* 
+  ===========================
+  Header
+  ===========================
+*/
+header {
+  text-align: center;
+  width: 100%;
+}
+
+.logo {
+  margin: auto;
+  height: 1.5rem;
+}
+
+header h1 {
+  color: var(--neutral-gray);
+  font-size: 1.5rem;
+}
+
+header span {
+  color: black;
+  font-weight: 700;
+}
 /* 
    ==========================
    Footer
