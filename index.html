@@ -1,34 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Ping coming soon page</title>
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style/main.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <!-- Google Font Libre Franklin -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  We are launching soon!
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <header>
+      <figure class="logo">
+        <img
+          src="/images/logo.svg"
+          alt="Ping written in black capital letters"
+        />
+      </figure>
+      <h1>We are launching <span>soon!</span></h1>
+    </header>
 
-  Subscribe and get notified
+    <main>
+      <section class="input">
+        <p>Subscribe and get notified</p>
+        <form novalidate>
+          <p>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your email address"
+              required
+            />
+            <span class="error" aria-live="polite"
+              >Please provide a valid email address</span
+            >
+            <span class="empty" aria-live="polite"
+              >Whoops! It looks like you forgot to add your email</span
+            >
+          </p>
+          <button type="button" form="email">Notify Me</button>
+        </form>
+      </section>
+      <figure class="dashboard">
+        <img
+          src="/images/illustration-dashboard.png"
+          alt="Mock up of a dashboard view"
+        />
+      </figure>
+      <section class="social">
+        <ul>
+          <li class="icon"><i class="fab fa-facebook-f"></i></li>
+          <li class="icon"><i class="fab fa-twitter"></i></li>
+          <li class="icon"><i class="fab fa-instagram"></i></li>
+        </ul>
+      </section>
+    </main>
 
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer>
+      <p class="copy">&copy; Copyright Ping. All rights reserved.</p>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/r-findley">Ryan Findley</a>.
+      </p>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/bd719d6431.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

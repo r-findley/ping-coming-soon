@@ -2,6 +2,16 @@
 
 ![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)
 
+## Personal README
+
+- [x] Establish personal README for this project
+- [x] Create git repository for this project
+- [] Layout base html file to reflect mobile/desktop design needs
+- [] Create css file to address styling
+- [] Create script file to address JavaScript needs
+- [x] Deploy project to Vercel
+- [] Share solution via Slack and Frontend Mentor
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
@@ -16,20 +26,20 @@ Your challenge is to build out this Coming Soon page and get it looking as close
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-Your users should be able to: 
+Your users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Submit their email address using an `input` field
 - Receive an error message when the `form` is submitted if:
-	- The `input` field is empty. The message for this error should say *"Whoops! It looks like you forgot to add your email"*
-	- The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Please provide a valid email address"*
+  - The `input` field is empty. The message for this error should say _"Whoops! It looks like you forgot to add your email"_
+  - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Please provide a valid email address"_
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
 ## Where to find everything
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. 
+Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to.
 
 The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes.
 
