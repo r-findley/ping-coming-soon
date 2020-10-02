@@ -143,14 +143,21 @@ table {
 
 /* 
    ==========================
-   Custom Styles
+   Mobile Styling
    ==========================
 */
+/* 
+  ===========================
+  Base Styling
+  ===========================
+ */
+
 body {
   box-sizing: border-box;
   font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
   margin: auto;
+  text-align: center;
   width: 375px;
 }
 
@@ -160,13 +167,15 @@ body {
   ===========================
 */
 header {
-  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 150px;
   width: 100%;
 }
 
 .logo {
   margin: auto;
   height: 1.5rem;
+  margin-bottom: 50px;
 }
 
 header h1 {
@@ -178,15 +187,80 @@ header span {
   color: black;
   font-weight: 700;
 }
+
+/* 
+  ===========================
+  Main Section Input 
+  ===========================
+*/
+.input {
+  font-size: 0.8rem;
+  margin-bottom: 75px;
+}
+
+.sub {
+  margin-bottom: 40px;
+}
+
+.email,
+.button {
+  border-radius: 30px;
+  font-size: 0.8rem;
+}
+.email {
+  border: 1px solid var(--secondary-pale-blue);
+  box-sizing: border-box;
+  color: var(--secondary-pale-blue);
+  margin: 0 auto 1rem 0;
+  height: 40px;
+  padding-left: 30px;
+  width: 300px;
+}
+
+.button {
+  background-color: var(--primary-blue);
+  border: none;
+  color: white;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+}
+
+/* 
+  ===========================
+  Main Section Dashboard
+  ===========================
+*/
+.dashboard img {
+  margin-bottom: 100px;
+  width: 90%;
+}
+
+/* 
+  ===========================
+  Main Section Social
+  ===========================
+*/
+.social {
+  margin-bottom: 30px;
+}
+.icon {
+  color: var(--primary-blue);
+  display: inline;
+  margin: 0 0.5rem;
+}
 /* 
    ==========================
    Footer
    ==========================
 */
+
 .attribution,
 .copy {
+  color: var(--neutral-gray);
   font-size: 11px;
   font-weight: 300;
+  margin-bottom: 1rem;
   text-align: center;
 }
 .attribution a {
