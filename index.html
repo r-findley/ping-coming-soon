@@ -34,24 +34,25 @@
 
     <main>
       <section class="input">
-        <p>Subscribe and get notified</p>
+        <p class="sub">Subscribe and get notified</p>
         <form novalidate>
           <p>
             <input
               type="email"
               name="email"
               id="email"
-              placeholder="Your email address"
+              class="email"
+              placeholder="Your email address..."
               required
             />
-            <span class="error" aria-live="polite"
+            <!-- <span class="error" aria-live="polite" 
               >Please provide a valid email address</span
             >
             <span class="empty" aria-live="polite"
               >Whoops! It looks like you forgot to add your email</span
-            >
+            >-->
           </p>
-          <button type="button" form="email">Notify Me</button>
+          <button type="button" class="button" form="email">Notify Me</button>
         </form>
       </section>
       <figure class="dashboard">
